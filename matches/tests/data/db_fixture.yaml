@@ -1,0 +1,41 @@
+- model: matches.copmetition
+  pk: 1
+  name: UEFA Champions League
+  code: CL
+  area_name: Europe
+
+- model: matches.team
+  pk: 1
+  name: Test Team 1
+  tla: TT
+  short_name: Test T
+  area_name: Germany
+  email: info@borussia.de
+  competition: 1
+
+- model: matches.player
+  pk: 1
+  name: Illarramendi
+  position: Midfield
+  date_of_birth: '1990-03-08'
+  country_of_birth: Spain
+  nationality: Spain
+  team: 1
+
+- model: matches.player
+  pk: 2
+  name: Juanmi
+  position: Offence
+  date_of_birth: '1993-05-20'
+  country_of_birth: Spain
+  nationality: Spain
+  team: 1
+
+- model: matches.player
+  pk: 3
+  name: Zurutuza
+  position: Midfield
+  date_of_birth: '1986-07-19'
+  country_of_birth: France
+  nationality: Spain
+  team: 1

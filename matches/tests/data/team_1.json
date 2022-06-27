@@ -1,0 +1,56 @@
+{
+  "id": 1,
+  "area": {
+    "id": 2088,
+    "name": "Germany"
+  },
+  "name": "Test Team 1",
+  "shortName": "Test T",
+  "tla": "TT",
+  "address": "Hennes-Weisweiler-Allee 1 Mönchengladbach 41179",
+  "phone": "+49 (02161) 92930",
+  "website": "http://www.borussia.de",
+  "email": "info@borussia.de",
+  "founded": 1900,
+  "clubColors": "Black / White / Green",
+  "venue": null,
+  "squad": [
+    {
+      "id": 1,
+      "name": "Illarramendi",
+      "firstName": "",
+      "lastName": "Illarra",
+      "dateOfBirth": "1990-03-08",
+      "countryOfBirth": "Spain",
+      "nationality": "Spain",
+      "position": "Midfield",
+      "shirtNumber": null,
+      "lastUpdated": "2022-04-13T11:19:19Z"
+    },
+    {
+      "id": 2,
+      "name": "Juanmi",
+      "firstName": "",
+      "lastName": "Juanmi",
+      "dateOfBirth": "1993-05-20",
+      "countryOfBirth": "Spain",
+      "nationality": "Spain",
+      "position": "Offence",
+      "shirtNumber": null,
+      "lastUpdated": "2022-05-03T08:22:49Z"
+    },
+    {
+      "id": 3,
+      "name": "Zurutuza",
+      "firstName": "David",
+      "lastName": null,
+      "dateOfBirth": "1986-07-19",
+      "countryOfBirth": "France",
+      "nationality": "Spain",
+      "position": "Midfield",
+      "shirtNumber": 17,
+      "lastUpdated": "2020-04-16T04:53:50Z"
+    }
+  ],
+  "lastUpdated": "2018-05-31T12:49:47Z"
+}
