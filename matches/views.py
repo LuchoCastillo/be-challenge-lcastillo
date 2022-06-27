@@ -10,7 +10,6 @@ from matches.third_party import FootballDataAPI
 from rest_framework import generics
 import requests
 import urllib.parse
-import django_filters
 
 
 class ImportLeagueView(View):
@@ -63,7 +62,9 @@ class PlayerListAPIView(generics.ListAPIView):
     """Returns a list of all players from a certain leagueCode or by team"""
     queryset = Player.objects.all()
     serializer_class = PlayerSerializer
-    filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
+
+    def get_queryset(self):
+        return self.queryset.filter(team__competition__code=self.kwargs['code'])
 
 
 class TeamRetrieveAPIView(generics.RetrieveAPIView):
